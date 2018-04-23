@@ -66,7 +66,7 @@ document.querySelector('#score-' + activePlayer).textContent = scores[activePlay
 //Create next player function
 
 // check if player won the game
-if(scores[activePlayer] >= 10){
+if(scores[activePlayer] >= 100){
   document.getElementById('name-' + activePlayer).textContent = "winner!";
   document.querySelector('.dice').style.display = 'none';
   document.querySelector('.player-' + activePlayer + '-panel').classList.add('winner');
