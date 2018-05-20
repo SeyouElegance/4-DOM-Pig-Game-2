@@ -133,6 +133,8 @@ function rest(){
   document.querySelector('.player-' + activePlayer + '-panel').classList.remove('winner');
   document.getElementById('name-0').textContent='Player 1';
   document.getElementById('name-1').textContent='Player 2';
+  document.querySelector('.final-score').style.display = 'block';
+  document.querySelector('.final-score').value = '';
   
   
   scores = [0,0];
